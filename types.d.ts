@@ -18,7 +18,7 @@ type Square = {
   notation: SquareNotation;
   file: number;
   column: string;
-  piece: Piece
+  piece: Piece | null;
 }
 
 enum SquareNotation {
